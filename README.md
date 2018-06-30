@@ -13,8 +13,8 @@ Web Programming with Python and JavaScript
  - [ ] Atleast one .class selector
  - [ ] Atleast one mobile-responsive @media query
  - [x] Use Boostrap 4
- - [ ] Use one Bootstrap component
- - [ ] Use at least two Bootstrap columns
+ - [x] Use one Bootstrap component
+ - [x] Use at least two Bootstrap columns
  - [ ] Use at least one SCSS variable
  - [ ] Use at least one example of SCSS nesting
  - [ ] Use at least one example of SCSS inheritance
