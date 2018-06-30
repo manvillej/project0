@@ -5,7 +5,7 @@ Web Programming with Python and JavaScript
 ### Requirements:
  - [ ] Four html pages all linked together
  - [x] One list (order or unordered)
- - [ ] One table
+ - [x] One table
  - [x] One image
  - [ ] One stylesheet
  - [ ] Atleast five different types of CSS selectors
@@ -19,3 +19,12 @@ Web Programming with Python and JavaScript
  - [ ] Use at least one example of SCSS nesting
  - [ ] Use at least one example of SCSS inheritance
  - [ ] Readme write up describing project
+
+ ### Steps
+ - [x] 1. layout and content types
+ - [ ] 2. Spacing
+ - [ ] 3. Fonts
+ - [ ] 4. Colors
+ - [ ] 5. Pages
+ - [ ] 6. Content
+ - [ ] 7. Printing
