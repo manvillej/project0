@@ -1,5 +1,7 @@
 <!doctype html>
 <html lang="en">
+
+    <!--header template -->
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -10,7 +12,10 @@
 
         <title>Hello, world!</title>
     </head>
+    <!-- end header template -->
+
     <body>
+        <!-- nav template -->
         <header>
             <nav class="navbar navbar-light bg-light">
                 <a class="navbar-brand" href="#">
@@ -23,15 +28,29 @@
                 </ul>
             </nav>
         </header>
+        <!-- end nav template -->
+
         <main>
+            <!-- main bootstrap template -->
             <div class="container">
                 <h1>Big Center Title</h1>
-                <div class="row">
+                <!-- bootstrap row template -->
+                <div class="row bootstrap-content img-only">
+                    <!-- a bootstrap content template -->
+                    <div class="col-md">
+                        <img src="http://placekitten.com/800/400">
+                    </div>
+                    <!-- end bootstrap content template -->
+                </div>
+                <div class="row bootstrap-content text-only">
+                    <!-- a bootstrap content template -->
                     <div class="col-sm">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus diam, tempor eu hendrerit in, fringilla eu diam. Vestibulum vel mauris massa. Curabitur eu metus tortor. Donec a arcu arcu. Suspendisse dignissim interdum mi, ac cursus mauris cursus a. </p>
                     </div>
+                    <!-- end bootstrap content template -->
                 </div>
-                <div class="row">
+                <!-- end bootstrap row template -->
+                <div class="row bootstrap-content img-list">
                     <div class="col-sm-12 col-md-6">
                         <img src="http://placekitten.com/200/200">
                     </div>
@@ -43,27 +62,34 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm">
+                <div class="row bootstrap-content img-text">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="http://placekitten.com/200/200">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
                         <p> Nam fermentum metus urna, et ullamcorper ligula congue eleifend. Curabitur rutrum id quam dignissim interdum. Fusce in neque vehicula, fringilla metus sit amet, interdum enim. Etiam consectetur egestas tortor, non facilisis nisi porttitor ac.</p>
                     </div>
                 </div>
             </div>
+            <!-- main bootstrap template -->
         </main>
+
+        <!-- footer template -->
         <footer>
             <nav class="navbar fixed-bottom">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a href="#"><i class="fa fa-github"></i> project</a>
+                    <a href="#"><i class="fa fa-github"></i> Repo</a>
                 </li>
                 <li class="nav-item">
                     <a href="#"><i class="fa fa-github"></i> Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">other social</a>
+                    <a href="#"><i class="fa fa-user-circle-o"></i>Social Media</a>
                 </li>
             </ul>
             </nav>
         </footer>
+        <!-- end footer template -->
     </body>
 </html>
