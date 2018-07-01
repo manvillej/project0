@@ -1,5 +1,37 @@
+header {
+	.navbar-brand {
+		#brand {
+			img{
+
+			}
+			color:red;
+		}
+	}
+	.nav-item {
+		a {
+			color:red;
+		}
+	}
+}
+
+#Title{
+	color:red;
+}
+
+
+
+footer {
+	.nav-item {
+		a {
+			color:red;
+		}
+	}
+}
+
 %bootstrap-content {
-	color:red;	
+	border:solid;
+	border-width:1px;
+
 }
 
 .content-post {
@@ -29,3 +61,5 @@
 .content-img-text {
   @extend %bootstrap-content;
 }
+
+
