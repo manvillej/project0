@@ -32,8 +32,8 @@ Web Programming with Python and JavaScript
 ## Work Log:
 
 ### Initial Steps:
-I don't know what I'll make this page about, but I figure I can do that last if I do this right. I've tried making webpages before with htmll and css, but I never liked how they came out. I always tried to do all the parts cohesively, but this time I wanted to try a different method.
+I don't know what I'll make this page about, but I figure I can do that last if I do this right. I've tried making webpages before with html and css, but I never liked how they came out. I always tried to do all the parts cohesively, but this time I wanted to try a different method.
 
-I've been messing around with flask for a little while (no live sites, just following Miguel Grinberg's tutorial)
+I've been messing around with flask for a little while (no live sites, just following Miguel Grinberg's tutorial) Which led me to learn about templates & and how those can be used to integrate individual parts. So, I am following a similar method. My plan is to first do layouts and content types. which will be a set of templates. 1 main style site and many different content sections of various types that can be used and reused depending on the situation.
 
 ### Layout and content types
