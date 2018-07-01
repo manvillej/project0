@@ -17,7 +17,7 @@ Web Programming with Python and JavaScript
  - [x] Use at least two Bootstrap columns
  - [ ] Use at least one SCSS variable
  - [ ] Use at least one example of SCSS nesting
- - [ ] Use at least one example of SCSS inheritance
+ - [x] Use at least one example of SCSS inheritance
  - [ ] Readme write up describing project
 
  ### Steps
