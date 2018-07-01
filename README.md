@@ -36,4 +36,10 @@ I don't know what I'll make this page about, but I figure I can do that last if 
 
 I've been messing around with flask for a little while (no live sites, just following Miguel Grinberg's tutorial) Which led me to learn about templates & and how those can be used to integrate individual parts. So, I am following a similar method. My plan is to first do layouts and content types. which will be a set of templates. 1 main style site and many different content sections of various types that can be used and reused depending on the situation.
 
-### Layout and content types
+### Layout and content types:
+
+I added several content types: content-post, content-img, content-text, content-table, content-text-table, content-img-list, and content-img-text. I think thats good for layout. It covers the whole list of general requirements. 
+
+Next, I am going to get the spacing and fonts down. I'll use the Sass variables for that. Then I'll do coloring with Sass variables as well. Finally, I'll break out the pages from the parts I've conceived (hopefully, I'll have a good idea for a topic at that point.) 
+
+Then, I will add the actual content. Paragraphs, images, and that jazz. I am leaving printing, last. I'll use that to satisfy the media query requirements as bootstrap satisfies the responsiveness and I don't want to "find" a reason to use the media queries. 
