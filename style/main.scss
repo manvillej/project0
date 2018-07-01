@@ -1,29 +1,56 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+$secondary-color: #333;
+
+
 header {
+	nav {
+		border:solid;
+		border-width:1px;
+	}
 	.navbar-brand {
+		border:solid;
+		border-width:1px;
 		#brand {
 			img{
 
 			}
-			color:red;
+			color:$primary-color;
 		}
 	}
+	ul {
+		border:solid;
+		border-width:1px;	
+	}
 	.nav-item {
+		border:solid;
+		border-width:1px;
 		a {
-			color:red;
+			color:$primary-color;
 		}
 	}
 }
 
 #Title{
-	color:red;
+	color:$primary-color;
 }
 
 
 
 footer {
+	nav {
+		border:solid;
+		border-width:1px;
+	}
+	ul {
+		border:solid;
+		border-width:1px;
+	}
 	.nav-item {
 		a {
-			color:red;
+			color:$primary-color;
+			border:solid;
+			border-width:1px;
 		}
 	}
 }

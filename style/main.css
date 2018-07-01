@@ -1,5 +1,21 @@
+header nav {
+  border: solid;
+  border-width: 1px;
+}
+header .navbar-brand {
+  border: solid;
+  border-width: 1px;
+}
 header .navbar-brand #brand {
   color: red;
+}
+header ul {
+  border: solid;
+  border-width: 1px;
+}
+header .nav-item {
+  border: solid;
+  border-width: 1px;
 }
 header .nav-item a {
   color: red;
@@ -9,8 +25,18 @@ header .nav-item a {
   color: red;
 }
 
+footer nav {
+  border: solid;
+  border-width: 1px;
+}
+footer ul {
+  border: solid;
+  border-width: 1px;
+}
 footer .nav-item a {
   color: red;
+  border: solid;
+  border-width: 1px;
 }
 
 .content-img-text, .content-img-list, .content-text-table, .content-table, .content-text-only, .content-img, .content-post {
