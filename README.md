@@ -28,3 +28,12 @@ Web Programming with Python and JavaScript
  - [ ] 5. Pages
  - [ ] 6. Content
  - [ ] 7. Printing
+
+## Work Log:
+
+### Initial Steps:
+I don't know what I'll make this page about, but I figure I can do that last if I do this right. I've tried making webpages before with htmll and css, but I never liked how they came out. I always tried to do all the parts cohesively, but this time I wanted to try a different method.
+
+I've been messing around with flask for a little while (no live sites, just following Miguel Grinberg's tutorial)
+
+### Layout and content types
