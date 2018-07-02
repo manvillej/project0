@@ -1,47 +1,81 @@
-header nav {
-  border: solid;
-  border-width: 1px;
+header .navbar {
+  padding: 0px;
 }
-header .navbar-brand {
-  border: solid;
-  border-width: 1px;
+header .navbar .navbar-brand {
+  padding: 0px;
 }
-header .navbar-brand #brand {
+header .navbar .navbar-brand #brand {
   color: red;
 }
-header ul {
-  border: solid;
-  border-width: 1px;
-}
-header .nav-item {
-  border: solid;
-  border-width: 1px;
-}
-header .nav-item a {
+header .navbar .nav .nav-item .nav-link {
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
   color: red;
 }
 
-#Title {
-  color: red;
+main .content-img-text, main .content-img-list, main .content-text-table, main .content-table, main .content-text-only, main .content-img, main .content-post {
+  border: solid;
+  border-width: 1px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+main .content-img-text div, main .content-img-list div, main .content-text-table div, main .content-table div, main .content-text-only div, main .content-img div, main .content-post div {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-footer nav {
-  border: solid;
-  border-width: 1px;
-}
-footer ul {
-  border: solid;
-  border-width: 1px;
-}
-footer .nav-item a {
-  color: red;
-  border: solid;
-  border-width: 1px;
+main .content-text-table table, main .content-table table {
+  margin: 0px auto;
 }
 
-.content-img-text, .content-img-list, .content-text-table, .content-table, .content-text-only, .content-img, .content-post {
-  border: solid;
-  border-width: 1px;
+main {
+  margin-bottom: 30px;
+}
+main #Title {
+  color: red;
+  text-align: center;
+}
+main p {
+  text-indent: 50px;
+  margin: 0px;
+}
+main .content-img {
+  padding: 0px;
+}
+main .content-img-list {
+  padding: 0px;
+}
+main .content-img-list .list {
+  text-align: center;
+}
+main .content-img-list .list ul {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+main .content-img-text {
+  padding: 0px;
+}
+main .content-img-text p {
+  padding: 10px;
+}
+
+footer .navbar {
+  padding: 0px;
+}
+footer .navbar .nav {
+  margin: 0 auto;
+}
+footer .navbar .nav .nav-item {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  width: 80px;
+  font-size: 20px;
+}
+footer .navbar .nav .nav-item a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

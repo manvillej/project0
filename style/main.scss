@@ -1,92 +1,127 @@
-$font-stack:    Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $primary-color: red;
 $secondary-color: #333;
-
+$main-bottom-margin: 30px;
 
 header {
-	nav {
-		border:solid;
-		border-width:1px;
-	}
-	.navbar-brand {
-		border:solid;
-		border-width:1px;
-		#brand {
-			img{
+	.navbar {
+		padding: 0px;
+		.navbar-brand {
+			padding:0px;
+			#brand {
+				img{
 
+				}
+				color:$primary-color;
 			}
-			color:$primary-color;
 		}
-	}
-	ul {
-		border:solid;
-		border-width:1px;	
-	}
-	.nav-item {
-		border:solid;
-		border-width:1px;
-		a {
-			color:$primary-color;
-		}
-	}
-}
-
-#Title{
-	color:$primary-color;
-}
-
-
-
-footer {
-	nav {
-		border:solid;
-		border-width:1px;
-	}
-	ul {
-		border:solid;
-		border-width:1px;
-	}
-	.nav-item {
-		a {
-			color:$primary-color;
-			border:solid;
-			border-width:1px;
-		}
+		.nav {
+			.nav-item {
+				.nav-link {
+					text-align: center;
+					font-size: 20px;
+					padding: 0px;
+					color:red;
+				}
+			}
+		}	
 	}
 }
 
 %bootstrap-content {
 	border:solid;
 	border-width:1px;
-
+	margin-bottom: 10px;
+	padding:10px;
+	div {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }
 
-.content-post {
-  @extend %bootstrap-content;
+%center-table{
+	table{
+		margin: 0px auto;
+	}
+
+}
+main {
+	margin-bottom: 30px;
+	#Title{
+		color:$primary-color;
+	  	text-align: center;
+	}
+
+	p {
+	    text-indent: 50px;
+	    margin:0px;
+	}
+	.content-post {
+	  @extend %bootstrap-content;
+	}
+
+	.content-img {
+	  @extend %bootstrap-content;
+	  padding: 0px;
+	}
+
+	.content-text-only {
+	  @extend %bootstrap-content;
+	}
+
+	.content-table {
+	  @extend %bootstrap-content;
+	  @extend %center-table;
+	}
+
+	.content-text-table {
+	  @extend %bootstrap-content;
+	  @extend %center-table;
+	}
+
+	.content-img-list {
+	  @extend %bootstrap-content;
+	  padding: 0px;
+	  .list {
+	  	text-align: center;
+	  	ul {
+	  		margin: 0px;
+	  		padding: 0px;
+	  		display:inline-block;
+	  	}
+	  }
+	} 
+
+	.content-img-text {
+	  @extend %bootstrap-content;
+	  padding: 0px;
+	  p{
+	  	padding: 10px;
+	  }
+	}
 }
 
-.content-img {
-  @extend %bootstrap-content;
+
+footer {
+	.navbar {
+		padding:0px;
+		.nav {
+			margin: 0 auto;
+			.nav-item {
+				margin-right:10px; 
+				margin-left:10px;
+				text-align: center;
+				width:80px;
+				font-size: 20px;
+				a {
+					text-decoration: none;
+				}
+			}
+		}
+	}
 }
 
-.content-text-only {
-  @extend %bootstrap-content;
-}
 
-.content-table {
-  @extend %bootstrap-content;
-}
 
-.content-text-table {
-  @extend %bootstrap-content;
-}
-
-.content-img-list {
-  @extend %bootstrap-content;
-}
-
-.content-img-text {
-  @extend %bootstrap-content;
-}
 
 

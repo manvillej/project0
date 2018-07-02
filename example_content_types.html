@@ -25,14 +25,14 @@
             <nav class="navbar navbar-light bg-light">
                 <a class="navbar-brand" href="#">
                     <span id="brand">
-                        <img src="http://placekitten.com/30/30">
+                        <img src="http://placekitten.com/36/36" class="img-fluid">
                         Hello, world!
                     </span>
                 </a>
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link" href="#">other page 1</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">other page 2</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">other page 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">page 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">page 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">page 3</a></li>
                 </ul>
             </nav>
         </header>
@@ -42,7 +42,6 @@
             <!-- main bootstrap template -->
             <div class="container">
                 <h1 id="Title">Big Center Title</h1>
-                <!-- bootstrap row template -->
                 <div class="row content-post">
                     <!-- a bootstrap content template -->
                     <div class="col-sm">
@@ -54,8 +53,8 @@
                 </div>
                 <div class="row content-img">
                     <!-- a bootstrap content template -->
-                    <div class="col-md">
-                        <img src="http://placekitten.com/800/400">
+                    <div class="col-md-12">
+                        <img src="http://placekitten.com/1200/400" class="img-fluid">
                     </div>
                     <!-- end bootstrap content template -->
                 </div>
@@ -121,12 +120,11 @@
                         </table>
                     </div>
                 </div>
-                <!-- end bootstrap row template -->
                 <div class="row content-img-list">
-                    <div class="col-sm-12 col-md-6">
-                        <img src="http://placekitten.com/200/200">
+                    <div class="col-sm-6 col-md-6">
+                        <img src="http://placekitten.com/400/200" class="img-fluid mx-auto d-block">
                     </div>
-                    <div class="col-sm-12 col-md-6">           
+                    <div class="col-sm-6 col-md-6 list">      
                         <ul>
                             <li>one item</li>
                             <li>another</li>
@@ -136,9 +134,10 @@
                 </div>
                 <div class="row content-img-text">
                     <div class="col-sm-12 col-md-6">
-                        <img src="http://placekitten.com/200/200">
+                        <img src="http://placekitten.com/800/400" class="img-fluid mx-auto d-block">
                     </div>
                     <div class="col-sm-12 col-md-6">
+                        <p> Nam fermentum metus urna, et ullamcorper ligula congue eleifend. Curabitur rutrum id quam dignissim interdum. Fusce in neque vehicula, fringilla metus sit amet, interdum enim. Etiam consectetur egestas tortor, non facilisis nisi porttitor ac.</p>
                         <p> Nam fermentum metus urna, et ullamcorper ligula congue eleifend. Curabitur rutrum id quam dignissim interdum. Fusce in neque vehicula, fringilla metus sit amet, interdum enim. Etiam consectetur egestas tortor, non facilisis nisi porttitor ac.</p>
                     </div>
                 </div>
@@ -149,15 +148,15 @@
         <!-- footer template -->
         <footer>
             <nav class="navbar fixed-bottom">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
+                <ul class="nav footer">
+                    <li class="nav-item" id="footer-first">
                         <a href="#"><i class="fa fa-github"></i> Repo</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="footer-second">
                         <a href="#"><i class="fa fa-github"></i> Profile</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#"><i class="fa fa-user-circle-o"></i>Social Media</a>
+                    <li class="nav-item" id="footer-third">
+                        <a href="#"><i class="fa fa-user-circle-o"></i> Social</a>
                     </li>
                 </ul>
             </nav>
