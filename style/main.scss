@@ -6,12 +6,14 @@ $tertiary-color: #ccc;
 $main-bottom-margin: 30px;
 $background-color: #212529;
 $section-color: #343a40;
-
+$section-padding: 10px;
+$section-spacing: 60px;
+$title-padding:30px;
 
 
 %bootstrap-content {
-    margin-bottom: 60px;
-    padding:10px;
+    margin-bottom: $section-spacing;
+    padding:$section-padding;
     background-color: $section-color;
     div {
         padding-left: 0px;
@@ -58,7 +60,7 @@ body{
         #Title{
             color:$title-color;
             text-align: center;
-            padding:30px;
+            padding:$title-padding;
         }
 
         p {
