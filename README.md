@@ -3,7 +3,7 @@
 Web Programming with Python and JavaScript
 
 ### Requirements:
- - [ ] Four html pages all linked together
+ - [x] Four html pages all linked together
  - [x] One list (order or unordered)
  - [x] One table
  - [x] One image
@@ -25,7 +25,7 @@ Web Programming with Python and JavaScript
  - [x] 2. Spacing
  - [x] 3. Fonts
  - [x] 4. Colors
- - [ ] 5. Pages
+ - [x] 5. Pages
  - [ ] 6. Content
  - [ ] 7. Printing
 
