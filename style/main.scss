@@ -28,8 +28,8 @@ $title-padding:30px;
     table{
         margin: 0px auto;
     }
-
 }
+
 body{
     header {
         .navbar {
@@ -141,6 +141,11 @@ body{
             }
         }
     }
+}
+
+@media print { 
+ /* All your print styles go here */
+ #header, #footer, #nav { display: none !important; }
 }
 
 
