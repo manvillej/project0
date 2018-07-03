@@ -55,3 +55,6 @@ I added a border around each content type to begin figuring out layout & spacing
 I finally got the spacing and layout. I'm not going to mess around with fonts. I really really don't know how to pick them. I also set up the color styling in a way I like. 
 
 Its really coming together
+
+### Pages
+This was quick. I made a few pages: index, past, present, future. I think I'll just add some info about me. 
