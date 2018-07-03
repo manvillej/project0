@@ -8,7 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- project style sheets -->
+        <link rel="stylesheet" href="./style/main.css">
 
         <title>Hello, world!</title>
     </head>
@@ -17,14 +22,17 @@
     <body>
         <!-- nav template -->
         <header>
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                    <img src="http://placekitten.com/30/30">Hello, world!
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm navbar-expand-md navbar-expand-lg">
+                <a class="navbar-brand" href="./index.html">
+                    <span id="brand">
+                        <img src="http://placekitten.com/36/36" class="img-fluid rounded-circle">
+                        Hello, world!
+                    </span>
                 </a>
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link" href="#">other page 1</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">other page 2</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">other page 3</a></li>
+                <ul class="navbar-nav justify-content-end navbar-collapse">
+                    <li class="nav-item"><a class="nav-link" href="#">page 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">page 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">page 3</a></li>
                 </ul>
             </nav>
         </header>
@@ -33,9 +41,8 @@
         <main>
             <!-- main bootstrap template -->
             <div class="container">
-                <h1>Big Center Title</h1>
-                <!-- bootstrap row template -->
-                <div class="row bootstrap-content content-post">
+                <h1 id="Title">Big Center Title</h1>
+                <div class="row content-post">
                     <!-- a bootstrap content template -->
                     <div class="col-sm">
                         <h3>Sub title</h3>
@@ -44,93 +51,97 @@
                     </div>
                     <!-- end bootstrap content template -->
                 </div>
-                <div class="row bootstrap-content content-img">
+                <div class="row content-img">
                     <!-- a bootstrap content template -->
-                    <div class="col-md">
-                        <img src="http://placekitten.com/800/400">
+                    <div class="col-md-12">
+                        <img src="http://placekitten.com/1200/400" class="img-fluid">
                     </div>
                     <!-- end bootstrap content template -->
                 </div>
-                <div class="row bootstrap-content content-text-only">
+                <div class="row content-text-only">
                     <!-- a bootstrap content template -->
                     <div class="col-sm">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus diam, tempor eu hendrerit in, fringilla eu diam. Vestibulum vel mauris massa. Curabitur eu metus tortor. Donec a arcu arcu. Suspendisse dignissim interdum mi, ac cursus mauris cursus a. </p>
                     </div>
                     <!-- end bootstrap content template -->
                 </div>
-                <div class="row bootstrap-content content-table"> 
+                <div class="row content-table"> 
                     <div class="col-sm">
-                        <table>  
-                        <tr>  
-                            <th>One</th>
-                            <th>Two</th>
-                            <th>Three</th>
-                        </tr>  
-                        <tr>  
-                            <td>Apples</td>
-                            <td>Carrots</td>
-                            <td>Steak</td>
-                        </tr>  
-                        <tr>  
-                            <td>Oranges</td>
-                            <td>Potato</td>
-                            <td>Pork</td>
-                        </tr>  
-                        <tr>  
-                            <td>Pears</td>
-                            <td>Peas</td>
-                            <td>Chicken</td>
-                        </tr>  
+                        <table class="table table-dark table-hover table-sm">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>One</th>
+                                    <th>Two</th>
+                                    <th>Three</th>
+                                </tr>
+                            </thead>
+                            <tr>  
+                                <td>Apples</td>
+                                <td>Carrots</td>
+                                <td>Steak</td>
+                            </tr>  
+                            <tr>  
+                                <td>Oranges</td>
+                                <td>Potato</td>
+                                <td>Pork</td>
+                            </tr>  
+                            <tr>  
+                                <td>Pears</td>
+                                <td>Peas</td>
+                                <td>Chicken</td>
+                            </tr>  
                         </table>
                     </div>
                 </div>
-                <div class="row bootstrap-content content-text-table"> 
+                <div class="row content-text-table"> 
                     <div class="col-sm-12 col-md-6">
                         <p> Nam fermentum metus urna, et ullamcorper ligula congue eleifend. Curabitur rutrum id quam dignissim interdum. Fusce in neque vehicula, fringilla metus sit amet, interdum enim. Etiam consectetur egestas tortor, non facilisis nisi porttitor ac.</p>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <table>  
-                        <tr>  
-                            <th>One</th>
-                            <th>Two</th>
-                            <th>Three</th>
-                        </tr>  
-                        <tr>  
-                            <td>Apples</td>
-                            <td>Carrots</td>
-                            <td>Steak</td>
-                        </tr>  
-                        <tr>  
-                            <td>Oranges</td>
-                            <td>Potato</td>
-                            <td>Pork</td>
-                        </tr>  
-                        <tr>  
-                            <td>Pears</td>
-                            <td>Peas</td>
-                            <td>Chicken</td>
-                        </tr>  
+                        <table class="table table-dark table-hover table-sm">
+                            <thead class="thead-dark"> 
+                                <tr>  
+                                    <th>One</th>
+                                    <th>Two</th>
+                                    <th>Three</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>Apples</td>
+                                <td>Carrots</td>
+                                <td>Steak</td>
+                            </tr>
+                            <tr>
+                                <td>Oranges</td>
+                                <td>Potato</td>
+                                <td>Pork</td>
+                            </tr>
+                            <tr>
+                                <td>Pears</td>
+                                <td>Peas</td>
+                                <td>Chicken</td>
+                            </tr>
                         </table>
                     </div>
                 </div>
-                <!-- end bootstrap row template -->
-                <div class="row bootstrap-content content-img-list">
-                    <div class="col-sm-12 col-md-6">
-                        <img src="http://placekitten.com/200/200">
+                <div class="row content-img-list">
+                    <div class="col-sm-6 col-md-6">
+                        <img src="http://placekitten.com/400/200" class="img-fluid mx-auto d-block">
                     </div>
-                    <div class="col-sm-12 col-md-6">           
-                        <ul>
-                            <li>one item</li>
-                            <li>another</li>
-                            <li>one more</li>
+                    <div class="col-sm-6 col-md-6 list">      
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">one item</li>
+                            <li class="list-group-item">another</li>
+                            <li class="list-group-item">one more</li>
                         </ul>
                     </div>
                 </div>
-                <div class="row bootstrap-content content-img-text">
+                <div class="row content-img-text">
                     <div class="col-sm-12 col-md-6">
-                        <img src="http://placekitten.com/200/200">
+                        <img src="http://placekitten.com/800/400" class="img-fluid mx-auto d-block">
                     </div>
                     <div class="col-sm-12 col-md-6">
+                        <p> Nam fermentum metus urna, et ullamcorper ligula congue eleifend. Curabitur rutrum id quam dignissim interdum. Fusce in neque vehicula, fringilla metus sit amet, interdum enim. Etiam consectetur egestas tortor, non facilisis nisi porttitor ac.</p>
                         <p> Nam fermentum metus urna, et ullamcorper ligula congue eleifend. Curabitur rutrum id quam dignissim interdum. Fusce in neque vehicula, fringilla metus sit amet, interdum enim. Etiam consectetur egestas tortor, non facilisis nisi porttitor ac.</p>
                     </div>
                 </div>
@@ -140,18 +151,18 @@
 
         <!-- footer template -->
         <footer>
-            <nav class="navbar fixed-bottom">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a href="#"><i class="fa fa-github"></i> Repo</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"><i class="fa fa-github"></i> Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"><i class="fa fa-user-circle-o"></i>Social Media</a>
-                </li>
-            </ul>
+            <nav class="navbar fixed-bottom navbar-dark bg-dark">
+                <ul class="nav footer">
+                    <li class="nav-item" id="footer-first">
+                        <a href="https://github.com/manvillej/project0"><i class="fa fa-github"></i> Repo</a>
+                    </li>
+                    <li class="nav-item" id="footer-second">
+                        <a href="https://github.com/manvillej"><i class="fa fa-github"></i> Profile</a>
+                    </li>
+                    <li class="nav-item" id="footer-third">
+                        <a href="https://twitter.com/JeffManville"><i class="fa fa-user-circle-o"></i> Social</a>
+                    </li>
+                </ul>
             </nav>
         </footer>
         <!-- end footer template -->
