@@ -26,7 +26,7 @@ Web Programming with Python and JavaScript
  - [x] 3. Fonts
  - [x] 4. Colors
  - [x] 5. Pages
- - [ ] 6. Content
+ - [x] 6. Content
  - [ ] 7. Printing
 
 ## Work Log:
@@ -58,3 +58,8 @@ Its really coming together
 
 ### Pages
 This was quick. I made a few pages: index, past, present, future. I think I'll just add some info about me. 
+
+
+### Content
+
+Added the content. Hells yeah.
