@@ -22,9 +22,9 @@ Web Programming with Python and JavaScript
 
  ### Steps
  - [x] 1. layout and content types
- - [ ] 2. Spacing
- - [ ] 3. Fonts
- - [ ] 4. Colors
+ - [x] 2. Spacing
+ - [x] 3. Fonts
+ - [x] 4. Colors
  - [ ] 5. Pages
  - [ ] 6. Content
  - [ ] 7. Printing
