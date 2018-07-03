@@ -11,14 +11,14 @@ Web Programming with Python and JavaScript
  - [x] Atleast five different types of CSS selectors
  - [x] Atleast one #id selector
  - [x] Atleast one .class selector
- - [ ] Atleast one mobile-responsive @media query
+ - [x] Atleast one mobile-responsive @media query
  - [x] Use Boostrap 4
  - [x] Use one Bootstrap component
  - [x] Use at least two Bootstrap columns
  - [x] Use at least one SCSS variable
  - [x] Use at least one example of SCSS nesting
  - [x] Use at least one example of SCSS inheritance
- - [ ] Readme write up describing project
+ - [x] Readme write up describing project
 
  ### Steps
  - [x] 1. layout and content types
@@ -27,7 +27,10 @@ Web Programming with Python and JavaScript
  - [x] 4. Colors
  - [x] 5. Pages
  - [x] 6. Content
- - [ ] 7. Printing
+ - [x] 7. Printing
+
+## Project Details:
+project includes 4 pages, Index, past, present, and future. There is a style directory to separate content for future style sheets. Content is a mini biography.
 
 ## Work Log:
 
@@ -63,3 +66,6 @@ This was quick. I made a few pages: index, past, present, future. I think I'll j
 ### Content
 
 Added the content. Hells yeah.
+
+### Print
+Done.
